@@ -1,6 +1,6 @@
 # Flight Calendar
 Flight Calendar <br/>
-Hello guys. I'm a full time softvare dev, part time pilot. <br/>
+Hello guys. I'm a full time software dev, part time pilot. <br/>
 I'm creating this app for paragliding clubs, pilots, instructors and students.<br/>
 In the end I hope this app will manage my club events, record pilot statics, manage payments and track pilots improvements.<br/>
 Will be in the store soone </br>
