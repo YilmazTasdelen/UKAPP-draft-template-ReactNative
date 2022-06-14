@@ -44,9 +44,9 @@ function Profile({ navigation }) {
                             style={{
                                 height: 90,
                                 width: 90,
-                                marginRight: 15
+                                marginRight: 0
                             }} />
-                        <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 22, paddingTop: 3 }}>Pilot İsmi</Text>
+                        <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 22, paddingTop: 3 }}>Pilot Name</Text>
                     </View>
 
                 </View>
@@ -78,11 +78,11 @@ function Profile({ navigation }) {
                 <Item thumb={thumbUrl()} style={{ marginTop: 17 }}>
                     <Flex>
                         <Flex.Item >
-                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Klüp  : </Text>
+                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Club  : </Text>
                         </Flex.Item>
                         <Flex.Item >
 
-                            <Text style={{ color: 'gray', fontSize: 19, }}>Uçuş Klübü</Text>
+                            <Text style={{ color: 'gray', fontSize: 19, }}>AYP</Text>
                         </Flex.Item>
                     </Flex>
                 </Item>
@@ -90,7 +90,7 @@ function Profile({ navigation }) {
                 <Item thumb={thumbUrl()} style={{ marginTop: 17 }}>
                     <Flex>
                         <Flex.Item >
-                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Uçuş Sayısı : </Text>
+                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Flight Count : </Text>
                         </Flex.Item>
                         <Flex.Item >
 
@@ -102,7 +102,7 @@ function Profile({ navigation }) {
                 <Item thumb={thumbUrl()} style={{ marginTop: 17 }}>
                     <Flex>
                         <Flex.Item >
-                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Uçuş Saati : </Text>
+                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}> Flight Time : </Text>
                         </Flex.Item>
                         <Flex.Item >
 
@@ -114,7 +114,7 @@ function Profile({ navigation }) {
                 <Item thumb={thumbUrl()} style={{ marginTop: 17 }}>
                     <Flex>
                         <Flex.Item >
-                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Seviye : </Text>
+                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Level : </Text>
                         </Flex.Item>
                         <Flex.Item >
 
@@ -126,7 +126,7 @@ function Profile({ navigation }) {
                 <Item thumb={thumbUrl()} style={{ marginTop: 17 }}>
                     <Flex>
                         <Flex.Item >
-                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Kanat : </Text>
+                            <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Wing : </Text>
                         </Flex.Item>
                         <Flex.Item >
 
@@ -136,11 +136,11 @@ function Profile({ navigation }) {
                 </Item>
 
                 <Item thumb={phoneUrl()} style={{ marginTop: 17 }}>
-                    <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Telefon :
+                    <Text style={{ fontWeight: 'bold', color: '#11669c', fontSize: 19 }}>Phone :
                         <Text style={{ color: 'gray' }}>(111) 111-1111</Text> </Text>
                 </Item>
                 <Item thumb={thumbUrl()} style={{ marginTop: 17,marginBottom:47}}>
-                    <Text style={{ fontWeight: 'bold', color: '#11669c' }}>Eğitmen Yorumu :
+                    <Text style={{ fontWeight: 'bold', color: '#11669c' }}>Instructor Comments :
                         <Text style={{ color: 'gray' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text> </Text>
                 </Item>
 

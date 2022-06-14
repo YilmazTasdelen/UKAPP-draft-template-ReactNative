@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as Statics from './../../Static/constants';
+import * as Statics from '../../Static/constants';
 import axios from "axios";
 
 const useFlight = () => {
