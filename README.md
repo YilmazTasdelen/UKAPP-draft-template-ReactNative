@@ -1,4 +1,4 @@
-# CRM-Sale-Force-App-React-Native-
+# Flight Calendar
 Flight Calendar <br/>
 Hello guys. I'm a full time softvare dev, part time pilot. <br/>
 I'm creating this app for paragliding clubs, pilots, instructors and students.<br/>
